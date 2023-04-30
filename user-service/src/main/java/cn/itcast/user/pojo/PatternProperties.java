@@ -4,6 +4,7 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 //时间对象
+//时间对象···
 @Data
 @Component
 @ConfigurationProperties(prefix = "pattern")
