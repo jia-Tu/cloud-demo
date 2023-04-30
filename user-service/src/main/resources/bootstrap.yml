@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: userservice
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      config:
+        file-extension: yaml
+        shared-configs:
+          - cluster.yaml
+#          - commons.yaml
+#        extension-configs:
+#          - extend.yaml
+
+pattern:
+  dateformat: yyyy-MM-dd HH:mm:ss
